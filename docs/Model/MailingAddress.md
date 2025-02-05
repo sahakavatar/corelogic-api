@@ -1,0 +1,16 @@
+# MailingAddress
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**care_of_name** | **string** | CoreLogic standardized and parsed name for the person receiving mail on behalf of the owner. | [optional] 
+**street_address** | **string** | Full mail address (not including City/St/Zip) (e.g. 123 N Main St). This also contains unparsed foreign mailing address. | [optional] 
+**street_address_parsed** | [**\Swagger\Client\Model\StreetAddressParsed**](StreetAddressParsed.md) |  | [optional] 
+**city** | **string** | The city associated with the mailing address. | [optional] 
+**state** | **string** | The two-letter USPS postal abbreviation associated with the state / protectorates / commonwealth (e.g., CA, VI). | [optional] 
+**zip_code** | **string** | Code assigned by the USPS. This is populated by various source files and other proprietary and non-proprietary processes. Data may be the 5-digit zip or 9-digit Zip+4 (e.g., 00501 or 954630042). | [optional] 
+**carrier_route** | **string** | This is the four digit code used by the local mail carrier to identify the delivery path. | [optional] 
+**foreign_address** | **string** | CoreLogic foreign delivery address for the owner. | [optional] 
+
+[[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
+
